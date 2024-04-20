@@ -1,11 +1,12 @@
 ---
-  hosts: dbservers
+  hosts: all
   become: true
    roles:
      - git
      - java
      - tomcat
+     - maven
      - docker
      - jenkins
- ...      
+ ...
 
