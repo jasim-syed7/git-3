@@ -4,7 +4,6 @@
    roles:
      - git
      - java
-     - tomcat
      - maven
      - docker
      - jenkins
